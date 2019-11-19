@@ -1,5 +1,6 @@
 package com.gekif.springboot.web.springbootfirstwebapplication.controller;
 
+import com.gekif.springboot.web.springbootfirstwebapplication.model.Todo;
 import com.gekif.springboot.web.springbootfirstwebapplication.service.LoginService;
 import com.gekif.springboot.web.springbootfirstwebapplication.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,9 @@ public class ToDoController {
 
     @RequestMapping(value= "/add-todo", method = RequestMethod.GET)
     public String showAddTodoPage(ModelMap model) {
+        model.addAttribute("todo", new Todo(0,
+                (String) model.get("name"), "", new Date(),
+                false));
         return "todo";
     }
 
@@ -38,8 +42,9 @@ public class ToDoController {
     }
 
     @RequestMapping(value = "/add-todo", method = RequestMethod.POST)
-    public String addTodo(ModelMap model, @RequestParam String desc) {
-        service.addTodo((String) model.get("name"), desc, new Date(), false);
+    public String addTodo(ModelMap model, Todo todo) {
+        service.addTodo((String) model.get("name"), todo.getDesc(), new Date(),
+                false);
         return "redirect:/list-todos";
     }
 
