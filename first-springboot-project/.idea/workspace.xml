@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696bb455-b0a0-426b-be40-e0d5e501d0f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRestRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gekif/springboot/runner/UserCommandLineRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/gekif/springboot/runner/UserCommandLineRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -59,6 +58,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRestRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRestRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/jpa/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/runner/UserCommandLineRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRestRepository.java" />
       </list>
     </option>
   </component>
@@ -216,6 +226,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first-springboot-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first-springboot-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -240,6 +259,9 @@
     <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/pom.xml&#10;app&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/resources/application.properties&#10;Wel&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/WelcomeController.java&#10;Welcome&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/WelcomeService.java&#10;appl&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/resources/application.properties" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gekif.springboot.repository" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo T430\Documents\JavaProject\LearningSpringBootIn100Steps\first-springboot-project\src\main\resources" />
     </key>
@@ -374,7 +396,7 @@
       <updated>1574224918671</updated>
       <workItem from="1574224920038" duration="995000" />
       <workItem from="1574226119730" duration="7610000" />
-      <workItem from="1574239347252" duration="2987000" />
+      <workItem from="1574239347252" duration="3601000" />
     </task>
     <task id="LOCAL-00001" summary="05 Spring Boot Deep Dive with a simple API: 050 Step 01 Setup and Launch Spring Boot Application with Maven and Eclipse">
       <created>1574225051679</created>
@@ -502,11 +524,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574242088521</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="05 Spring Boot Deep Dive with a simple API: 072 Step 19 In Memory Database H2 Console and add a new JPA Repository Method-en">
+      <created>1574242351750</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574242351750</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11592000" />
+    <option name="totallyTimeSpent" value="12206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="683" height="728" extended-state="0" />
@@ -521,7 +550,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62828946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6266892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -567,7 +596,8 @@
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 069 Step 17 Advanced Application Configuration - Type Safe Configuration Properties" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 070 Step 18 Spring Boot Starter  Spring Data JPA with CommandLineRunner" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 071 Step 18 Spring Boot Starter  Spring Data JPA with CommandLineRunner Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 071 Step 18 Spring Boot Starter  Spring Data JPA with CommandLineRunner Part 2" />
+    <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 072 Step 19 In Memory Database H2 Console and add a new JPA Repository Method-en" />
+    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 072 Step 19 In Memory Database H2 Console and add a new JPA Repository Method-en" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -680,7 +710,7 @@
         <state relative-caret-position="126">
           <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,7 +720,7 @@
         <state relative-caret-position="17">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -849,6 +879,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.2.RELEASE/spring-data-commons-1.12.2.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
