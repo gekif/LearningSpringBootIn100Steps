@@ -1,6 +1,7 @@
 package com.gekif.springboot.controller;
 
 import com.gekif.springboot.Application;
+import com.gekif.springboot.model.Question;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.skyscreamer.jsonassert.JSONAssert;
@@ -33,6 +34,7 @@ public class SurveyControllerIT {
     }
 */
 
+
     @Test
     public void testRetrieveSurveyQuestion() {
 
@@ -55,6 +57,34 @@ public class SurveyControllerIT {
 
         String expected = "{id:Question1,description:Largest Country in the World,correctAnswer:Russia}";
         JSONAssert.assertEquals(expected, response.getBody(), false);
+
+    }
+
+
+    @Test
+    public void addQuestion() {
+
+        String url = "http://localhost:" + port + "/surveys/Survey1/questions";
+
+        TestRestTemplate restTemplate = new TestRestTemplate();
+
+//        String output = restTemplate.getForObject(url, String.class);
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+
+        Question question1 = new Question("DOESNTMATTER",
+                "Question1", "Russia", Arrays.asList(
+                "India", "Russia", "United States", "China"));
+
+        HttpEntity entity = new HttpEntity<Question>(question1, headers);
+        ResponseEntity<String> response = restTemplate.exchange(url,
+                HttpMethod.POST, entity, String.class);
+
+        String actual = response.getHeaders().get(HttpHeaders.LOCATION).get(0);
+
+        System.out.println(actual);
+        assertTrue(actual.contains("/surveys/Survey1/questions/"));
 
     }
 
