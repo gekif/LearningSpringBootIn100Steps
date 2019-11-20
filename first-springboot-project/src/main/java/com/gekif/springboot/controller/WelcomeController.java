@@ -21,4 +21,10 @@ public class WelcomeController {
         String properName = WordUtils.capitalizeFully(name);
         return service.retrieveWelcomeMessageWithName(properName);
     }
+
+    @GetMapping(value = "/welcome-message-property")
+    public String welcomeFromMessageProperty() {
+        return service.retrieveMessageFromPropertyFile();
+    }
+
 }
