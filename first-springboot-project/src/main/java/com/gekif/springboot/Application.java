@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan("com.gekif")
 public class Application {
 
     public static void main(String[] args) {
