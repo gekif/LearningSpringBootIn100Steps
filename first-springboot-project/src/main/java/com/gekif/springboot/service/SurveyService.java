@@ -2,6 +2,7 @@ package com.gekif.springboot.service;
 
 import com.gekif.springboot.model.Question;
 import com.gekif.springboot.model.Survey;
+import org.springframework.stereotype.Component;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;
@@ -9,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Component
 public class SurveyService {
 
     private static List<Survey> surveys = new ArrayList<>();

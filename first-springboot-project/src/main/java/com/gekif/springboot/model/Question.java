@@ -1,7 +1,11 @@
 package com.gekif.springboot.model;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+
+@Component
 public class Question {
 
     private String id;
