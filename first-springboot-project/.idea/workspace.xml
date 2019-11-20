@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696bb455-b0a0-426b-be40-e0d5e501d0f6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_0_RELEASE.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first-springboot-project.iml" afterPath="$PROJECT_DIR$/first-springboot-project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +24,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="287">
+              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -328,7 +333,7 @@
       <updated>1574224918671</updated>
       <workItem from="1574224920038" duration="995000" />
       <workItem from="1574226119730" duration="7610000" />
-      <workItem from="1574239347252" duration="69000" />
+      <workItem from="1574239347252" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="05 Spring Boot Deep Dive with a simple API: 050 Step 01 Setup and Launch Spring Boot Application with Maven and Eclipse">
       <created>1574225051679</created>
@@ -407,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574238932452</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="05 Spring Boot Deep Dive with a simple API: 065 Step 13 Spring Boot Actuator  Monitor your Spring Boot applications">
+      <created>1574239428760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574239428760</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8674000" />
+    <option name="totallyTimeSpent" value="8905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="683" height="728" extended-state="0" />
@@ -465,7 +477,8 @@
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 061 Step 09 Spring Boot Developer Tools and LiveReload  Develop faster" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 062 Step 10 Create a Service to add a new question to survey PostMapping Postman" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 063 Step 11 Understand Content Negotiation. Deliver XML Responses." />
-    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 063 Step 11 Understand Content Negotiation. Deliver XML Responses." />
+    <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 065 Step 13 Spring Boot Actuator  Monitor your Spring Boot applications" />
+    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 065 Step 13 Spring Boot Actuator  Monitor your Spring Boot applications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -588,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="287">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding />
         </state>
       </provider>
