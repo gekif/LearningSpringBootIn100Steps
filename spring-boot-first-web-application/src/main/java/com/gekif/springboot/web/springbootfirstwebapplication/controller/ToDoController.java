@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.validation.Valid;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import java.util.Optional;
 
 
 @Controller
@@ -45,7 +45,8 @@ public class ToDoController {
     @RequestMapping(value= "/list-todos", method = RequestMethod.GET)
     public String showTodos(ModelMap model) {
         String name = getLoggedInUserName(model);
-        model.put("todos", service.retrieveTodos(name));
+        model.put("todos", repository.findByUser(name));
+//        model.put("todos", service.retrieveTodos(name));
         return "list-todos";
     }
 
@@ -73,16 +74,20 @@ public class ToDoController {
 
     @RequestMapping(value= "/delete-todo", method = RequestMethod.GET)
     public String deleteTodo(@RequestParam int id) {
-        if (id == 1)
-            throw new RuntimeException("Something went wrong");
-        service.deleteTodo(id);
+
+/*        if (id == 1)
+            throw new RuntimeException("Something went wrong");*/
+
+        repository.deleteById(id);
+//        service.deleteTodo(id);
         return "redirect:/list-todos";
     }
 
 
     @RequestMapping(value= "/update-todo", method = RequestMethod.GET)
     public String showUpdateTodoPage(@RequestParam int id, ModelMap model) {
-        Todo todo = service.retrieveTodos(id);
+//        Todo todo = service.retrieveTodos(id);
+        Optional<Todo> todo = repository.findById(id);
         model.put("todo", todo);
         return "todo";
     }
@@ -97,7 +102,8 @@ public class ToDoController {
 
         todo.setUser(getLoggedInUserName(model));
 
-        service.updateTodo(todo);
+//        service.updateTodo(todo);
+        repository.save(todo);
 
         return "redirect:/list-todos";
     }
