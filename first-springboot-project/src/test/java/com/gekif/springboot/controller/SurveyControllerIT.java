@@ -11,8 +11,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
+import org.springframework.security.crypto.codec.Base64;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -30,15 +32,15 @@ public class SurveyControllerIT {
     @LocalServerPort
     private int port;
 
-
     private TestRestTemplate restTemplate = new TestRestTemplate();
 
-
-    private HttpHeaders headers = new HttpHeaders();
+    HttpHeaders headers = new HttpHeaders();
 
 
     @Before
     public void before() {
+        headers.add("Authorization",
+                createHttpAuthenticationHeaderValue("user1", "secret1"));
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
     }
 
@@ -97,6 +99,17 @@ public class SurveyControllerIT {
 
     private String createURLWithPort(final String uri) {
         return "http://localhost:" + port + uri;
+    }
+
+    private String createHttpAuthenticationHeaderValue(
+            String userId,
+            String password) {
+        String auth = userId + ":" + password;
+
+        byte[] encodedAuth = Base64.encode(auth.getBytes(Charset
+                .forName("US-ASCII")));
+
+        return "Basic " + new String(encodedAuth);
     }
 
 
