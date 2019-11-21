@@ -1,6 +1,7 @@
 package com.gekif.springboot.web.springbootfirstwebapplication.controller;
 
 import com.gekif.springboot.web.springbootfirstwebapplication.model.Todo;
+import com.gekif.springboot.web.springbootfirstwebapplication.service.TodoRepository;
 import com.gekif.springboot.web.springbootfirstwebapplication.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
@@ -19,11 +20,19 @@ import javax.validation.Valid;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
+
 @Controller
 public class ToDoController {
 
+
     @Autowired
     TodoService service;
+
+
+    @Autowired
+    TodoRepository repository;
+
 
     @InitBinder
     public void initBinder(WebDataBinder binder) {
@@ -96,12 +105,15 @@ public class ToDoController {
 
     @RequestMapping(value = "/add-todo", method = RequestMethod.POST)
     public String addTodo(ModelMap model, @Valid Todo todo, BindingResult result) {
+
         if (result.hasErrors()) {
             return "todo";
         }
 
-        service.addTodo(getLoggedInUserName(model), todo.getDesc(), todo.getTargetDate(),
-                false);
+        todo.setUser(getLoggedInUserName(model));
+        repository.save(todo);
+ /*       service.addTodo(getLoggedInUserName(model), todo.getDesc(), todo.getTargetDate(),
+                false);*/
 
         return "redirect:/list-todos";
     }
