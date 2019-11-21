@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="696bb455-b0a0-426b-be40-e0d5e501d0f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -521,7 +519,7 @@
       <workItem from="1574226119730" duration="7610000" />
       <workItem from="1574239347252" duration="8213000" />
       <workItem from="1574302136474" duration="2867000" />
-      <workItem from="1574306178867" duration="4497000" />
+      <workItem from="1574306178867" duration="4861000" />
     </task>
     <task id="LOCAL-00001" summary="05 Spring Boot Deep Dive with a simple API: 050 Step 01 Setup and Launch Spring Boot Application with Maven and Eclipse">
       <created>1574225051679</created>
@@ -726,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574311651663</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="05 Spring Boot Deep Dive with a simple API: 083 Step 27 Configure Spring Security user roles  - Part 2">
+      <created>1574312662266</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574312662266</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -762,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24182000" />
+    <option name="totallyTimeSpent" value="24546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="683" height="728" extended-state="0" />
