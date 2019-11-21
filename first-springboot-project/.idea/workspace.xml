@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="696bb455-b0a0-426b-be40-e0d5e501d0f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SurveyControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +42,8 @@
       <file leaf-file-name="SurveyControllerIT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="54" column="105" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
+            <state relative-caret-position="918">
+              <caret line="54" column="105" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1114#1115#0" expanded="true" />
@@ -66,7 +66,7 @@
       <file leaf-file-name="SurveyController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/controller/SurveyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="476">
               <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -165,8 +165,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="684" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -277,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SurveyControllerTest.retrieveDetailsForQuestion">
+  <component name="RunManager" selected="JUnit.SurveyControllerTest.createSurveyQuestion">
     <configuration name="SurveyControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -303,31 +303,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SurveyControllerIT.addQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gekif.springboot.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="first-springboot-project" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gekif.springboot.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.gekif.springboot.controller.SurveyControllerIT" />
-      <option name="METHOD_NAME" value="addQuestion" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="SurveyControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -342,6 +317,31 @@
       <option name="MAIN_CLASS_NAME" value="com.gekif.springboot.controller.SurveyControllerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SurveyControllerTest.createSurveyQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gekif.springboot.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="first-springboot-project" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gekif.springboot.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.gekif.springboot.controller.SurveyControllerTest" />
+      <option name="METHOD_NAME" value="createSurveyQuestion" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -484,19 +484,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT.addQuestion" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.testMethod" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.retrieveDetailsForQuestion" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.testMethod" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.retrieveDetailsForQuestion" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.createSurveyQuestion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.retrieveDetailsForQuestion" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.testMethod" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT.addQuestion" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.createSurveyQuestion" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.retrieveDetailsForQuestion" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.testMethod" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +521,8 @@
       <workItem from="1574224920038" duration="995000" />
       <workItem from="1574226119730" duration="7610000" />
       <workItem from="1574239347252" duration="8213000" />
-      <workItem from="1574302136474" duration="2641000" />
+      <workItem from="1574302136474" duration="2867000" />
+      <workItem from="1574306178867" duration="1562000" />
     </task>
     <task id="LOCAL-00001" summary="05 Spring Boot Deep Dive with a simple API: 050 Step 01 Setup and Launch Spring Boot Application with Maven and Eclipse">
       <created>1574225051679</created>
@@ -698,24 +699,31 @@
       <option name="project" value="LOCAL" />
       <updated>1574304918251</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="05 Spring Boot Deep Dive with a simple API: 079 Step 24 Writing Unit Tests with Spring Boot and Mockito Part 2">
+      <created>1574305867998</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305867998</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SurveyControllerIT_testJsonAssert - 2019.11.20 at 17h 23m 29s.xml">
-      <configuration name="SurveyControllerIT.testJsonAssert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SurveyControllerIT_testRetrieveSurveyQuestion - 2019.11.20 at 17h 27m 03s.xml">
-      <configuration name="SurveyControllerIT.testRetrieveSurveyQuestion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SurveyControllerIT_testRetrieveSurveyQuestion - 2019.11.20 at 17h 28m 33s.xml">
-      <configuration name="SurveyControllerIT.testRetrieveSurveyQuestion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SurveyControllerIT_testRetrieveSurveyQuestion - 2019.11.20 at 17h 30m 32s.xml">
-      <configuration name="SurveyControllerIT.testRetrieveSurveyQuestion" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SurveyControllerTest - 2019.11.21 at 09h 54m 08s.xml">
       <configuration name="SurveyControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SurveyControllerTest_createSurveyQuestion - 2019.11.21 at 10h 37m 53s.xml">
+      <configuration name="SurveyControllerTest.createSurveyQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SurveyControllerTest_createSurveyQuestion - 2019.11.21 at 10h 39m 19s.xml">
+      <configuration name="SurveyControllerTest.createSurveyQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SurveyControllerTest_createSurveyQuestion - 2019.11.21 at 10h 40m 48s.xml">
+      <configuration name="SurveyControllerTest.createSurveyQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SurveyControllerTest_createSurveyQuestion - 2019.11.21 at 10h 42m 55s.xml">
+      <configuration name="SurveyControllerTest.createSurveyQuestion" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SurveyControllerTest_retrieveDetailsForQuestion - 2019.11.21 at 10h 08m 07s.xml">
       <configuration name="SurveyControllerTest.retrieveDetailsForQuestion" configurationId="JUnit" />
@@ -734,10 +742,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19459000" />
+    <option name="totallyTimeSpent" value="21247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -748,7 +756,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59210527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5740132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -828,13 +836,62 @@
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 076 Step 22 Adding Integration Test for POST Request-en" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 077 Step 23 Small Refactoring to organise ourselves" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 078 Step 24 Writing Unit Tests with Spring Boot and Mockito" />
-    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 078 Step 24 Writing Unit Tests with Spring Boot and Mockito" />
+    <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 079 Step 24 Writing Unit Tests with Spring Boot and Mockito Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 079 Step 24 Writing Unit Tests with Spring Boot and Mockito Part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="105" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/service/SurveyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/controller/SurveyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -896,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,7 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/controller/SurveyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="476">
           <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1014,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="54" column="105" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
+        <state relative-caret-position="918">
+          <caret line="54" column="105" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1114#1115#0" expanded="true" />
@@ -1034,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
