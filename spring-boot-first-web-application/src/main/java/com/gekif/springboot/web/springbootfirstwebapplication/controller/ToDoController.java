@@ -87,7 +87,7 @@ public class ToDoController {
     @RequestMapping(value= "/update-todo", method = RequestMethod.GET)
     public String showUpdateTodoPage(@RequestParam int id, ModelMap model) {
 //        Todo todo = service.retrieveTodos(id);
-        Optional<Todo> todo = repository.findById(id);
+        Todo todo = repository.findById(id).get();
         model.put("todo", todo);
         return "todo";
     }
