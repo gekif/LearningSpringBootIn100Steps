@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696bb455-b0a0-426b-be40-e0d5e501d0f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_4_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_1_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first-springboot-project.iml" afterPath="$PROJECT_DIR$/first-springboot-project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SurveyControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurveyControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -29,26 +33,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="85">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyControllerIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="105" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,10 +129,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/runner/UserCommandLineRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gekif/springboot/repository/UserRestRepository.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -165,7 +165,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -253,7 +253,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="IT&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java&#10;SurveySer&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/SurveyService.java&#10;SurveyCont&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/SurveyController.java&#10;SurveyCon&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/SurveyController.java&#10;Surve&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/SurveyService.java&#10;pom&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/pom.xml&#10;app&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/resources/application.properties&#10;Wel&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/WelcomeController.java&#10;Welcome&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/WelcomeService.java&#10;appl&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/resources/application.properties" />
+    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/pom.xml&#10;IT&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java&#10;SurveySer&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/SurveyService.java&#10;SurveyCont&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/SurveyController.java&#10;SurveyCon&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/SurveyController.java&#10;Surve&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/SurveyService.java&#10;app&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/resources/application.properties&#10;Wel&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/controller/WelcomeController.java&#10;Welcome&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/java/com/gekif/springboot/service/WelcomeService.java&#10;appl&#9;FILE&#9;file://C:/Users/Lenovo T430/Documents/JavaProject/LearningSpringBootIn100Steps/first-springboot-project/src/main/resources/application.properties" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -277,7 +277,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SurveyControllerTest.createSurveyQuestion">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gekif.springboot.Application" />
+      <module name="first-springboot-project" />
+      <envs />
+    </configuration>
     <configuration name="SurveyControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -483,12 +489,13 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SurveyControllerIT" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.testMethod" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.retrieveDetailsForQuestion" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.SurveyControllerTest.createSurveyQuestion" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -522,7 +529,7 @@
       <workItem from="1574226119730" duration="7610000" />
       <workItem from="1574239347252" duration="8213000" />
       <workItem from="1574302136474" duration="2867000" />
-      <workItem from="1574306178867" duration="1562000" />
+      <workItem from="1574306178867" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="05 Spring Boot Deep Dive with a simple API: 050 Step 01 Setup and Launch Spring Boot Application with Maven and Eclipse">
       <created>1574225051679</created>
@@ -706,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574305867998</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="05 Spring Boot Deep Dive with a simple API: 080 Step 25 Writing Unit test for createTodo">
+      <created>1574307820629</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1574307820629</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -742,10 +756,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21247000" />
+    <option name="totallyTimeSpent" value="22596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -756,7 +770,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5740132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5575658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -812,7 +826,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 050 Step 01 Setup and Launch Spring Boot Application with Maven and Eclipse" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 052 Step 02 Creating your first RestController" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API:053 Step 02 Theory  Basics of Spring Framework" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 054 Step 03 Understanding Spring Boot Magic  Spring Boot Starter Web" />
@@ -837,7 +850,8 @@
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 077 Step 23 Small Refactoring to organise ourselves" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 078 Step 24 Writing Unit Tests with Spring Boot and Mockito" />
     <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 079 Step 24 Writing Unit Tests with Spring Boot and Mockito Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 079 Step 24 Writing Unit Tests with Spring Boot and Mockito Part 2" />
+    <MESSAGE value="05 Spring Boot Deep Dive with a simple API: 080 Step 25 Writing Unit test for createTodo" />
+    <option name="LAST_COMMIT_MESSAGE" value="05 Spring Boot Deep Dive with a simple API: 080 Step 25 Writing Unit test for createTodo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,8 +882,6 @@
           <caret line="54" column="105" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,14 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gekif/springboot/jpa/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1068,20 +1072,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gekif/springboot/controller/SurveyControllerIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="171">
           <caret line="54" column="105" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="264">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1093,6 +1095,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
